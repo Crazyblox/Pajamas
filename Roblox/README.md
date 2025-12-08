@@ -3,6 +3,9 @@ This is the file directory for the Roblox runtime version of Pajamas.
 This directory is compatible with importing directly into Roblox Studio.
 
 ### Setup:
+
+#### Studio File sync
+
 Roblox studio's file sync feature can read from disk and import directly into studio, so we will need to perform the following steps:
 - 1: In roblox studio, go to 'File -> Beta Features -> Script Sync', enable it, close the beta window, then restart studio.
 - 2: On your PC, make a copy of Pajamas/Roblox (This directory) and store it on your PC in a location that makes sense to you.
@@ -15,3 +18,7 @@ Roblox studio's file sync feature can read from disk and import directly into st
 
 ### Disclaimer:
 This setup process requires the use of a roblox studio beta feature, and as such reliability cannot be guaranteed for using in any context beyond attempting to import the files into studio itself.
+
+#### Rojo
+
+Pajamas has already been setup as a Rojo project. Given the latest version of Rojo, serve in the root folder to find Pajamas in `ReplicatedStorage` under `PajamasRoblox`. You can edit the `default.project.json` file to change this behaviour.
