@@ -21,4 +21,4 @@ This setup process requires the use of a roblox studio beta feature, and as such
 
 #### Rojo
 
-Pajamas has already been setup as a Rojo project. Given the latest version of Rojo, serve in the root folder to find Pajamas in `ReplicatedStorage` under `PajamasRoblox`. You can edit the `default.project.json` file to change this behaviour.
+Pajamas has already been setup as a Rojo project. Given the latest version of Rojo, serve in the root folder to find Pajamas in `ReplicatedStorage` under `Pajamas`. You can edit the `default.project.json` file to change this behaviour.
