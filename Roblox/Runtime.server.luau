@@ -43,8 +43,10 @@ local RuntimePlugins = script.Parent.Plugins
 local Wrappers = {}
 Wrappers.Server = script.Parent.LuauVM_Server:Clone()
 Wrappers.Server.Name = "LuauVM"
+Wrappers.Server.Enabled = false
 Wrappers.Client = script.Parent.LuauVM_Client:Clone()
 Wrappers.Client.Name = "LuauVM"
+Wrappers.Client.Enabled = false
 table.freeze( Wrappers )
 
 -- Clear server/client copies present in the datamodel; we have cloned our own for use.
