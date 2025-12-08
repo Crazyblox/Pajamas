@@ -1,0 +1,12 @@
+{
+  "name": "pajamas",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Pajamas": {
+        "$path": "Roblox"
+      }
+    }
+  }
+}
